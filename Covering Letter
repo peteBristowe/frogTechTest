@@ -1,0 +1,38 @@
+Covering Letter for the Frog Technical Test
+
+
+
+To whom it may concern,
+
+Please see the attached project I have created for the Frog Technical Test. It conforms to the specification by using the commonly used open source web-stack, using only Vanilla variants of each language (PHP,MySQL,JavaScript,CSS and HTML).
+
+I have decided not to use any external libraries or extensions (with the exception of PHPass for login security) as the task is not difficult to complete using the Vanilla variants, and it reduces both complexity and filesize of the overall project.
+
+The code is written in a procedural style, which I selected for the sake of simplicity. Since the brief was only to create a system to add and list users, developing an Object Oriented skeleton for the system would have taken significantly longer to implement for no performance gain.
+Had the brief included the requirement to edit, remove and/or otherwise manipulate each user's data I would likely have opted for an OO approach to simplify the addressing of each user as this level of interaction would likely make the ease of use later down the line outweigh the initial work of creating the system.
+
+I have coded this project in a Windows-based XAMPP environment, and have found it fully functional whilst testing within an Ubuntu-based XAMPP environment running as a virtual machine.
+
+The initial page presented to the user is a login screen, for which the credentials are as follows:
+Usr: frog
+Pwd: ribbit
+It uses JavaScript to check and update the fields/button, and PHPass for hashing and checking passwords.
+
+Once logged in, the user is presented with a three-tab page with a responsive design.
+It is not necessary to install any databases; the dbConn() function in api.php will create the database and table required upon its first use.
+If the testing system already has a database called "frog" present, this system's database name can be changed in the variable on Line 13 of api.php. To maximize simplicity, I have also left the database credentials as blank; something that would of course not be done in an actual product deployment.
+
+A user can be added from the Add tab, which also uses JavaScript to check and update the input fields and button. The data will then be immediately visible in the List tab.
+
+When data is present and on a full-width screen, the list tab presents it all in a <div> grid layout. Data can be sorted by any column by clicking on its header field, initially from 0-9/A-Z, though a second interaction will invert this.
+
+For smaller screens, the view switches to a list of the user's full name, and clicking on the name will expand a section below to show that individual's data. Clicking again will shrink it back.
+
+Finally, the Log Out tab is the most self-explanatory. This will end the current session and the user must log back in to be able to view the data again.
+
+
+I would like to sincerely thank you for considering me for this role.
+I am very excited at the prospect of working for Frog Education for a larger quantity of reasons than the scope of this document permits detailing.
+
+I look forward to hearing back from you soon,
+Huw (Pete) Bristowe.
